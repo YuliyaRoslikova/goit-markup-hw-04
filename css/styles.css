@@ -394,12 +394,16 @@ a.active {
   background: #2e2f42;
   padding: 100px 0;
 }
+
 .footer .container {
   display: flex;
+  align-items: baseline;
 }
 
-.footer__container {
-  width: calc((100% - 48px) / 3);
+.footer__container-logo {
+  margin-right: 120px;
+}
+.footer__container-social {
 }
 
 .footer__logo {
@@ -415,17 +419,20 @@ a.active {
 }
 .footer .social {
   width: 208px;
+  gap: 16px;
 }
 
-.footer__subtitle {
-  color: #fff;
+.footer__social-subtitle {
+  color: #ffffff;
   margin-bottom: 16px;
   text-align: left;
   text-transform: none;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-weight: 500;
 }
 .footer .social__link:hover,
 .footer .social__link:focus {
-  fill: #31d0aa;
+  background-color: #31d0aa;
 }
